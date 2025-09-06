@@ -6,7 +6,7 @@ sexo = input("Digite o sexo (M/F): ").upper()
 estado_civil = input("Digite o estado civil: ").upper()
 
 tempo_casada = None
-if sexo == "F" and estado_civil == "Casada":
+if sexo == "F" and estado_civil == "CASADA":
     tempo_casada = input("Digite o tempo de casada (em anos): ")
 
 print("\nDados do usuário:")
