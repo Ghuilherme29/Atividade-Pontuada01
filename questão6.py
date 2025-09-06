@@ -11,8 +11,7 @@ media = soma / 2
 if media >= 6:
     print(f"Aluno aprovado com média {media}.")
 
-
 if media <= 5.9 and media >= 4.1:
     print(f"Aluno em recuperação com média {media}.")
 else:
-    print(f"Aluno reprovado com média {media}.")       
+    print(f"Aluno reprovado com média {media}.")

@@ -1,13 +1,14 @@
 import os
 os.system
 
-valor_A = int(input("Digite seu numero"))
-valor_B = int(input("Digite seu numero"))
+a = int(input("Digite o valor de a: "))
+b = int(input("Digite o valor de b: "))
 
-
-
-
-
-soma = valor_A + valor_B
-if soma > 20:
-    soma += 8
+if a == b:
+    print(f"O valor de a ({a}) é igual ao valor de b ({b}).")
+    c = a + b
+    print(f"A soma de a + b é: {c}.")
+else:
+    print(f"O valor de a ({a}) é diferente do valor de b ({b}).")
+    c = a * b
+    print(f"A multiplicação de a * b é: {c}.")
